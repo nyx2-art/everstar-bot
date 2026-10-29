@@ -1,5 +1,5 @@
 import { Area, AreaChart, ResponsiveContainer, Tooltip, YAxis } from "recharts";
-import { formatPrice } from "@/lib/keel/symbols";
+import { formatPrice } from "./symbols";
 
 export function TapeChart({ prices, pip }: { prices: number[]; pip: number }) {
   if (prices.length < 2) {
