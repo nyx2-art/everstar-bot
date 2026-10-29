@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { KeelEngine, type Snapshot } from "@/lib/keel/engine";
+import { KeelEngine, type Snapshot } from "./engine";
 
 export function useKeel() {
   const [engine] = useState(() => new KeelEngine());
